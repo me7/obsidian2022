@@ -11,3 +11,6 @@
 - git config --global user.email "gampolt@gmail.com"
 - git config --global user.name "gampolt@s10lite"
 - Install termux widget and create backup script in ~/.scripts
+
+## setup
+file://~/storage
