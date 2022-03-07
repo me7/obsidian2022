@@ -7,3 +7,5 @@
 - 📝 write 500 word everyday
 - 🏃‍♂️ sit-up or run or plank everyday
 - 🧘‍♂️ mediation before sleep everyday
+
+[Level Up Tuturial](levelUpTut.md)
