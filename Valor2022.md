@@ -17,3 +17,11 @@
 	- Hana Report Generator = gen traceability report
 	- Web Business Intelligent = Intranet - All OP - Valor BI
 	- Hana Process Monitoring Viewer = document online
+
+# Hana Setup
+- use parallel client to 172.31.100.10 with spi spispi
+- use radmin to other
+
+spi spispi
+valor420
+screen
