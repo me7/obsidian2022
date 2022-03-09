@@ -1,0 +1,10 @@
+- copy forecast sheet to file
+- add product group to forecast
+- remove all blank row 
+- copy group, All Location, sapPN
+- find new 499 PN
+- add test time for new 499PN
+	- copy 499 from "test time sheet" to new sheet
+	- copy 499 from forecast to new sheet
+	- vlookup to find new 499
+- fix month column
