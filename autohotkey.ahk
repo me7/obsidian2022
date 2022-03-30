@@ -10,30 +10,28 @@ Capslock::
 return
 
 ; winQ enable WIRE_HANA network adapterQ
-#q::
+#+q::
     if not WinExist(Network Connections)
         Run, ncpa.cpl
     WinWaitActive, Network Connections
-    Send, WIR
+    Send, ZET
     Send, {AppsKey}
     Sleep, 250 ;adjust as needed
-    Send, {Down}
     Send, a ;en&able
     Sleep, 250 ;adjust as needed
     WinWaitActive, Network Connections
-    Send, !{F4}
+    ;Send, !{F4}
     return
 
 ; WinShiftQ disable WIRE_HANA network adapter
-#+q::
+#q::
     ;Run, %ComSpec% /K netsh interface set interface "WIRE_HANA" enable
     if not WinExist(Network Connections)
         Run, ncpa.cpl
     WinWaitActive, Network Connections
-    Send, WIR
+    Send, ZET
     Send, {AppsKey}
     Sleep, 250 ;adjust as needed
-    Send, {Down}
     Send, b ;disa&ble
     Sleep, 500 ;adjust as needed
     Send, !{F4}
