@@ -4,6 +4,10 @@ script is autohotkey.ahk
 http://dsss.be/w/autohotkey_recipes
 https://windowsloop.com/best-autohotkey-scripts/
 
+## command
+SetTimer, DllCall, Random, ComObjCreate()
+
+
 ## syntax
 ```ahk
 ; is comment, #Win ^Ctrl !Alt +Shift
@@ -44,5 +48,16 @@ Capslock::
 
  }
 
+return
+```
+
+### setTimer
+```
+f1::
+SetTimer, stuffhere, 5000
+Return
+
+stuffhere:
+msgbox, hi
 return
 ```
