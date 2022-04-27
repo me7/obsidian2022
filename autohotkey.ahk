@@ -58,8 +58,13 @@ Gampol_T (ext# 495)
 ; [x] Total Commander
 #IfWinActive ahk_class TTOTAL_CMD
 ; WheelUp::SendMessage 0x400+51, 572, 0, , ahk_class ;prev tab
-WheelUp::^d ;favorite
-WheelDown::!Down ;history
+;WheelDown::^d ;favorite
+;WheelUp::!Down ;history
+;RButton & WheelDown::^Tab
+;RButton & WheelUp::^+Tab
+MButton::S
+WheelDown::!4
+;RButton & MButton::^w
 ;d::SendMessage 0x400+51, 572, 0, , ahk_class ;next tab
 ^WheelUp::SendMessage 0x400+51, 3006, 0, , ahk_class TTOTAL_CMD ;572=historyList see TOTALCMD.inc for more
 ^WheelDown::SendMessage 0x400+51, 3005, 0, , ahk_class TTOTAL_CMD ;572=historyList see TOTALCMD.inc for more
