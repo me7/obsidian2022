@@ -62,8 +62,9 @@ Gampol_T (ext# 495)
 ;WheelUp::!Down ;history
 ;RButton & WheelDown::^Tab
 ;RButton & WheelUp::^+Tab
-MButton::S
-WheelDown::!4
+;MButton::S
+;WheelDown::!4
+;WheelUp::!1
 ;RButton & MButton::^w
 ;d::SendMessage 0x400+51, 572, 0, , ahk_class ;next tab
 ^WheelUp::SendMessage 0x400+51, 3006, 0, , ahk_class TTOTAL_CMD ;572=historyList see TOTALCMD.inc for more
