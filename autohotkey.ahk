@@ -1,4 +1,6 @@
 ;#Include d:\autohotkey\obsidian.ahk
+
+Capslock::^PrintScreen
 ; [x] Global
 ;Capslock::
 ; SendInput {Ctrl Down}{Alt Down}{Shift Down}{LWin Down}
